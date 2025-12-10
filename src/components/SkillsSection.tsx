@@ -5,6 +5,16 @@ import { motion } from "motion/react";
 
 import PythonSvg from "@/components/icons/python.svg";
 import MongoSvg from "@/components/icons/mongodb.svg";
+import ReactSvg from "@/components/icons/react.svg";
+import NodeSvg from "@/components/icons/node.svg";
+import ExpressSvg from "@/components/icons/express.svg";
+import GitHubSvg from "@/components/icons/github.svg";
+import CSvg from "@/components/icons/c.svg";
+import JavaSvg from "@/components/icons/java.svg";
+import JavaScriptSvg from "@/components/icons/javascript.svg";
+import TensorFlowSvg from "@/components/icons/tensorflow.svg";
+import GitSvg from "@/components/icons/git.svg";
+import RestApiSvg from "@/components/icons/restapi.svg";
 import { GridPattern } from "./magicui/grid-pattern";
 
 type SkillImage = React.FC<React.SVGProps<SVGSVGElement>>;
@@ -12,23 +22,23 @@ type SkillImage = React.FC<React.SVGProps<SVGSVGElement>>;
 // Skills I know
 const skills: { name: string; image?: SkillImage }[] = [
   { name: "Python", image: PythonSvg },
-  { name: "C" },
-  { name: "Java" },
-  { name: "JavaScript" },
-  { name: "React.js" },
-  { name: "Node.js" },
-  { name: "Express.js" },
+  { name: "C", image: CSvg },
+  { name: "Java", image: JavaSvg },
+  { name: "JavaScript", image: JavaScriptSvg },
+  { name: "React.js", image: ReactSvg },
+  { name: "Node.js", image: NodeSvg },
+  { name: "Express.js", image: ExpressSvg },
   { name: "MongoDB", image: MongoSvg },
-  { name: "REST APIs" },
-  { name: "TensorFlow" },
+  { name: "REST APIs", image: RestApiSvg },
+  { name: "TensorFlow", image: TensorFlowSvg },
   { name: "NLP" },
   { name: "Generative AI" },
   { name: "Data Structures" },
   { name: "Algorithms" },
   { name: "OOP" },
   { name: "DBMS" },
-  { name: "Git" },
-  { name: "GitHub" },
+  { name: "Git", image: GitSvg },
+  { name: "GitHub", image: GitHubSvg },
 ];
 
 // Animation variant for individual skill cards
