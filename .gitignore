@@ -39,9 +39,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Exclude parent directories and other projects
-../../
-../../Desktop/
-../../OneDrive/
-../../Documents/HARI PRASAD FMML CERTIFICATIONS/open-source-ai-powered-streamlit-application-main/
